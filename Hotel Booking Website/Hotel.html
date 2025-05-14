@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="room.css">
+	<title></title>
+</head>
+<body>
+    <nav>
+		<div class="left">
+		  <span>SkyLight</span>
+		</div>
+		<div class="right">
+		  <ul>
+      <li><a class="a1" href="index.html">Home</a></li>
+			<li><a class="a1" href="contact us.html">Contact</a></li>
+			<li><a class="a1" href="Booking form.html">Book Now</a></li>
+		  </ul>
+        </nav>
+		</div>
+        <div class="h1">
+            <h1>Welcome to the SkyLight</h1>
+        </div>
+       
+      
+            <div class="image-container">
+                <img src="hotel sl.png" alt="Your Image">
+                <a href="Booking form.html"> <input type="submit" name="book" id="book" value="Book Now" class="book-now-button"/></a>
+              </div>
+              <div class="image-gallery">    
+
+            <h1 class="f">Entrance and Reception</h1>
+            <div class="row">
+              <img src="hotel receptionist.png" alt="Image 2">
+              <img src="hotel receptionist 2.png"  alt="Image 3">
+              <img src="hotel entrance.png"alt="Image 4"> 
+            </div>
+            <h1 class="f">Hotel Rooms</h1>
+            <div class="centered-image">
+              <img src="hotel rooom 1.png" alt="Image 5">
+            </div>
+            <div class="row">
+               <!-- <img src="hotel room 4.png" alt="Image 6"> --> 
+              <img src="hotel room 2.png" alt="Image 7">
+              <img src="hotel room3.png" alt="Image 8">
+            </div>
+
+            <!-- <div class="centered-image">
+                <img src="hotel rooom 1.png" alt="Image 5">
+              </div> -->
+              <h1 class="f">Hotel Bathrooms</h1>
+              <div class="row">
+                <img clas='i6' src="hotel shower.png" alt="Image 6">
+                <img class="i7" src="hotel bath 3.png" alt="Image 7">
+                 <img src="hotel basine 2.png" alt="Image 8">
+              </div>
+            <!-- Repeat this pattern for additional images -->
+            <h1 class="f">Swiming Pool</h1>
+            <div class="centered-image">
+                <img src="hotel swiming pool.png" alt="Image 5">
+              </div>
+              <h1 class="f">Food Area</h1>
+              <div class="row">
+                <img src="hotel food.png" alt="Image 6">
+                <img src="hotel dyning.png" alt="Image 7">
+                <img src="hotel food 2.png" alt="Image 8">
+              </div>
+          </div>
+          
+          
+</body>
+</html>
+<style>
+   .image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.centered-image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.centered-image img {
+  width: 100%;
+  height: 550px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.h1{
+    font-style: bold;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(12, 124, 172);
+}
+.f{
+    font-size: 40px;
+}
+.image-container {
+  position: relative;
+  text-align: center;
+}
+.image-container img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 550px;
+}
+.book-now-button {
+  position: absolute;
+  top: 420px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #3498db;
+    border-color: #3498db;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+    width: 240px;
+    font-size: 30px;
+}
+.book-now-button:hover {
+    background-color: #512814e6;
+    color: #fff;
+    border-color: #512814e6;
+  }
+  
+
+</style>
